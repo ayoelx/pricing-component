@@ -62,13 +62,13 @@ main::before {
     height: 600px;
     top: 0;
     right: 0;
-    background-position: top -30px right -175px;
+    background-position: top -30px right -195px;
     z-index: -1;
 }
 
 h1 {
     color: var(--Grayish-Blue);
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 .toggle-div {
