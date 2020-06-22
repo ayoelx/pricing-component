@@ -82,7 +82,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0 80px;
+    margin: 40px 0;
 }
 
 .toggle-btn:hover {
