@@ -44,13 +44,9 @@ body {
     border: 1px solid #fff;
     text-transform: uppercase;
     cursor: pointer;
-}
-
-.btn:hover {
-     background-color: transparent;
-     background-image: none;
-     color: hsl(237, 63%, 64%);
-     border: 1px solid hsl(237, 63%, 64%);
+    transition-property: border, background, color;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
 }
 
 /* MAIN */
@@ -222,6 +218,13 @@ h3 {
 
     .btn {
         padding: 10px 0;
+    }
+
+    .btn:hover {
+        background-color: transparent;
+        background-image: none;
+        color: hsl(237, 63%, 64%);
+        border: 1px solid hsl(237, 63%, 64%);
     }
 
     .boxes {
