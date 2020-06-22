@@ -217,7 +217,7 @@ h3 {
         background-size: contain;
         background-position: left;
         left: 0;
-        bottom: -225px;
+        top: 550px;
     }
 
     .toggle-div {
