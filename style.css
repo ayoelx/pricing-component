@@ -154,7 +154,7 @@ h3 {
 
 .visible {
     display: block;
-    font-size: 5em;
+    font-size: 4.75em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,10 +198,6 @@ h3 {
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 1000px) {
-
-    main {
-        width: 85%;
-    }
 
     main::before {
         background-position: top right;
