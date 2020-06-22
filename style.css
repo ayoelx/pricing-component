@@ -41,9 +41,16 @@ body {
     font-size: inherit;
     padding: 15px 0;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #fff;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.btn:hover {
+     background-color: transparent;
+     background-image: none;
+     color: hsl(237, 63%, 64%);
+     border: 1px solid hsl(237, 63%, 64%);
 }
 
 /* MAIN */
@@ -76,6 +83,10 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 50px 0 80px;
+}
+
+.toggle-btn:hover {
+    opacity: 0.8;
 }
 
 .toggle-btn {
@@ -175,4 +186,17 @@ h3 {
     background-color: #fff;
     color: hsl(237, 63%, 64%);
     background-image: none;
+}
+
+.box-large .btn:hover {
+    color: #fff;
+    background-image: inherit;
+    border: 1px solid #fff;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 800px) {
+    
 }
