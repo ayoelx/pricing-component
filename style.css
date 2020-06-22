@@ -82,7 +82,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0;
+    margin: 50px 0 80px;
 }
 
 .toggle-btn:hover {
@@ -218,6 +218,10 @@ h3 {
         background-position: left;
         left: 0;
         bottom: -275px;
+    }
+
+    .toggle-div {
+        margin: 40px 0;
     }
 
     .btn {
